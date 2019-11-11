@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "image": "./images/49ers.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "./images/bears.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "./images/bengals.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "./images/broncos.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "./images/browns.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "./images/cardinals.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "./images/chargers.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "./images/chiefs.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "./images/cowboys.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "./images/jaguars.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "./images/lions.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "./images/raiders.png",
+        "clicked": false
+    },
+    {
+        "id": 13,
+        "image": "./images/rams.png",
+        "clicked": false
+    },
+    {
+        "id": 14,
+        "image": "./images/ravens.png",
+        "clicked": false
+    },
+    {
+        "id": 15,
+        "image": "./images/seahawks.png",
+        "clicked": false
+    },
+    {
+        "id": 16,
+        "image": "./images/vikings.png",
+        "clicked": false
+    }
+]
