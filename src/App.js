@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import CharacterCard from "./components/CharacterCard";
+import data from "./images.json";
 
-function App() {
+var goodGuessCount = 0;
+
+class App extends Component {
+
+  state = {
+    goodGuessCount
+  };
+
+render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <Title>Memory Match Game</Title>
+      <div>
+      <h3>
+          Correct Guesses: {this.state.goodGuessCount}
+      </h3>
+      </div>
+      {data.map(data => <CharacterCard data={data}/>)}
+    </Wrapper>
   );
+}
 }
 
 export default App;
