@@ -5,8 +5,8 @@ const CharacterCard = props => (
     <div className="card" onClick={() => props.selectedCard(props.id)} >
       <div className="img-container">
         <img
-          src={image}
-          alt={id}
+          src={props.image}
+          alt={props.id}
         />
       </div>
     </div>
